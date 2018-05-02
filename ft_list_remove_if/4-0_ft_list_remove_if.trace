@@ -1,0 +1,98 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r3p7.unit.ua
+Darwin 15.5.0 x86_64
+$> date
+Tue Mar 27 10:38:59 EEST 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/c-exam-alone-in-the-dark-beginner/exam_20180327/aorji
+
+= Git history ==================================================================
+$> git -C /var/folders/wr/0wxtjq957t577tjh4hk6n20w0000gq/T/tmpte0xyg/user log --pretty='%H - %an, %ad : %s'
+aa767e69402b5fd1df3741e4e58708d6c7e627f3 - Exam 42, Tue Mar 27 10:38:37 2018 +0300 : remove
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/wr/0wxtjq957t577tjh4hk6n20w0000gq/T/tmpte0xyg/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  314 Mar 27 10:39 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought  136 Mar 27 10:39 ft_list_remove_if
+
+/var/folders/wr/0wxtjq957t577tjh4hk6n20w0000gq/T/tmpte0xyg/user/ft_list_remove_if:
+total 16
+-rw-r--r--  1 deepthought  deepthought   998 Mar 27 10:39 ft_list.h
+-rw-r--r--  1 deepthought  deepthought  1386 Mar 27 10:39 ft_list_remove_if.c
+ 
+= ft_list_remove_if ============================================================
+$> gcc -Wextra -Wall -Werror ft_list_remove_if.c ft_create_elem.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./7yattrkf8yyoel7xc6snot48 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./qhhu1vaiqly30r3869aag6yg "tgio"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./1ptv1nujdwxuuvzagsqkxnvd "lGpx5dYv3DsWrB"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./6pd0ggraiv999vm82ixa8rcf "GvY4yz1Tb7 yTX zGBecpd9htyQ c76P3nlS4vJ YWEKX3ARbV9Inxe Ok7UzdcCXTw jPGn whVa1rQy5Ag dav"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./fbnrvxg2lgrblu4oe5kfpt6e "Mp5 Fegzbqct7Z3 05LdGY GvTkUdM4RsnL76 CUiJR94SvjKD c37x uN0E uvdQrLXaypfTDk1I HhiY75PMQyItFgLm 18MaTfvcqYLhCdBX qxdYw0v1r8CBZOz9 BgwC7ARrmu6 wgE21UTPa8JY RXlfAYxy0TjDG 2BKFxY 32yl"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./f8ccutw5ybrbeyz6bsuiu1bu "5AYydO" "T3Irz24YbgsoPZ" "pW2ZV5sYjaI9g6" "eI9FMzsrH4uf" "FNazXO" "BaZqcvb3l5sfF8Vd" "w9YH2VPTWx7M1A" "eahf98" "ZnAJfTK" "hQIdzgkpfxPX5Fas" "e0c9jMA"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./jpxzfmo3psliui2jnta8sekz "gHzp8F3U7Qaq1O" "D5UipwhOdV4uI" "moZpVqSeWf" "vYns1E" "5mObqXexvCYf6Z" "dE2DjZCm" "nt9DcYGT8M7HFp"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./hyu4c4afu50jfq4csnikgxiz "4qRBLg8W1AKtT3mvF" "n613ZBrL7iMvh" "2wiefC" "a954bC7lvWXPByG" "cwAM5On4hR" "h065jpO" "PR9Si4WNGIygt" "s0qKedDb5N9y" "TcYjs" "ChaGkKH89"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./a7yzhzdzdojhorj27co1wh9i "2lfwSe RKpr iXS InfOkj SNVaAM4Q 8RNydubVpmeCZ 6v7RKhwAH EpfIg4cqiSYr21Oj HWfuN" "F1tW I9zq7G65bw 5VuRQE I4uDhEtxr2byLN0v yYI W0IRB3m4fd9asA aLMyetEb JKjoibnhND9 0inuEl2xGzk wb5g1Dtojf4xMH9ye lgzXs23EifS jxqXkJlBzCIS5 de1XwG R0UCBra4QX"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./agcaflsmru5bstt1cakhx5zu "6FQD0eOcPdVwB FzkPw2hXAd0c8No qGL 1LRyUKTuhlmg4ZvbB nAM2azEkuHt 1GMH9pRNwLFcdbq48" "MeoAtrbxiVFK1hTX5 t7pQzeriUJHGXOk r9DSPwWnYdQkGU 7ImnRxQM HLiQ3nl6kPmX" "g3zPOQdIM2 uX60sRmWKgh2lj IN9bp0OSltFqM4 g8Gh OT3zVo E4B76 Jnpq" "VOnAE7Dga5hpQ LXkUZS8g Xg85qspQDZT3fmu jfp45Py7tgV 02cDk gC2QEsPLJ1j EZpXlLeyMkAKh5 qtJk Un0s YcSTV XRw4DnEY1sj Jbw2I 1jeN9 1trnQi9v lD1w" "gotc1msSTU9 hLIQJ f0eY4 DEqb5TfpS vYowBkRXJ0Pp JnZAStbBkm1QjdDaY uGod" "RmoWf3Aebgz 9qMUvEl6dHoxuk72h kBZ2AEYubFaUi7DXe IJFc9DjM jgoiPm epF4GiAo6I1B L21h DleSB9PmEogf0xWh FXeyBEvmGrVpPHOW kfwNJ HAKW4wMoDB JXqavbz4fgC TL8S5VgMe2suFaEm jvTeroEl GjvlXKhxuQLaU 7nc eAzslLOdoU" "E20Uk1Vrtm9I DYrP 8IXzpSxnQ7Ae2O 5Pf7dSWMoaFc" "C6KsRtz3g7 7JrZcLtx3ITXFiD szQ9 TldtNswBQhnCKW iuk6t EjPk5 37X2h1gBuC4AWV fQ0w SElN EvTOyiP SFusWcAI iXV60NJIjmDSu4 iR4BXD98m5"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./vsz3sotn1spofyt460wjzqtc "8nsOCgGSDAN69Hb NzrlTqAEc7YaVd5 1qLmJKaf7V sSDXvCx" "HmQC6YPilk5p2z kwBfD o3akumgeXRSw1dP0O YFNzMu zV9KWE6NqlF gp9tflUsbELY u7sIoS0H4hyVX" "pNx9BCsReJf iFG7QO21j E8p0wF riAdk LbKuvk xcWUofKkZpqI sQfFMblDiySVvdhr F4IvzgQr5 fz134Tghn6RDv pQAYT9CciaHDvxd mpH0 9T2PC1LUqmW3N l6vQ0cuxVgJbRd GV2N tnSqcDACJf ivO0MApRtD8Eg91" "TV02SvoJr3 elIbKch7vR9 0yYMucXOApW9e1mPi LvalJqjQ S8f1EN 6pKTkQDAtyeS rc4SjTvzRLiNIJAZa sth3K5MRG8C4WmXgo g6sQ OxmaIUdleN7yW 4iX JFaKhi0q8EZ7e emU" "D4tEijPN qvdy2f bLhQI2VJDZorxW ofxGyr49a 5Etp7yHF1WQZT MvLDnJBpe0orb 2QZkXcMw7J FwjTOgC UPjK67Zh pFEJBzK"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
