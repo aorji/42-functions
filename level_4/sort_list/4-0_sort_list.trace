@@ -1,0 +1,47 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r8p12.unit.ua
+Darwin 15.5.0 x86_64
+$> date
+Tue Mar 13 10:25:18 EET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/c-exam-alone-in-the-dark-beginner/exam_20180313/aorji
+
+= Git history ==================================================================
+$> git -C /var/folders/22/brwcdyns55v0cbh_qmxd2gtw0000gq/T/tmpxPCrdx/user log --pretty='%H - %an, %ad : %s'
+185227391aea8807a814229ccba87693409719e7 - Exam 42, Tue Mar 13 10:24:46 2018 +0200 : sort_list
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/22/brwcdyns55v0cbh_qmxd2gtw0000gq/T/tmpxPCrdx/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  255 Mar 13 10:25 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar 13 10:25 sort_list
+
+/var/folders/22/brwcdyns55v0cbh_qmxd2gtw0000gq/T/tmpxPCrdx/user/sort_list:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1410 Mar 13 10:25 sort_list.c
+ 
+= sort_list ====================================================================
+$> gcc -Wextra -Wall -Werror sort_list.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./su38z0q1avoqhncv8gz24erx
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
